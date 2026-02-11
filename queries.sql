@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 SELECT
     Class,
     COUNT(*) AS count
@@ -36,6 +35,3 @@ SELECT
 FROM transactions
 GROUP BY amount_bucket
 ORDER BY fraud_rate_pct DESC;
-=======
-
->>>>>>> da11d7938519ba0b1f08df25804c9960058d0d98
